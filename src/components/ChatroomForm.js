@@ -28,7 +28,10 @@ export default class ChatroomForm extends Component {
             onChange={this.onChange}
             value={this.state.newMessage}
           />
-          <button type="submit">Send!</button>
+
+          <button class="button" type="submit">
+            Send!
+          </button>
         </form>
       </div>
     );

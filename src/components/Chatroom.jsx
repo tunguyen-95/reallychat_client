@@ -24,8 +24,8 @@ export class Chatroom extends Component {
   render() {
     console.log('local state is: ', this.state);
     return (
-      <div>
-        <h1>Really?? The new chat app you never heard of !</h1>
+      <div class="container">
+        <h1>Really is the new chat app you never heard of !</h1>
         <img src="https://images.app.goo.gl/mfxyULwYFXJi5VVv8" alt="" />
 
         <ul>
